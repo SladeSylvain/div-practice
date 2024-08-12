@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #fffff4;
+}
+
+
+
+.header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px 15%;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.2s;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo:hover{
+    transform: scale(1.04);
+}
+
+.header .nav-list{
+    list-style: none;
+
+}
+
+.header .nav-list li:hover{
+    transform: scale(1.4)
+}
+
+.header .nav-list li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-list a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .btn button{
+    font-weight: 50px;
+    border-radius: 50px;
+    color: black;
+    background-color: #fffff4;
+    padding: 2px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.header .btn button:hover{
+    transform: scale(1.2);
+}
+
+
+.header .nav-list li a:hover{
+    color: slategray;
+}
